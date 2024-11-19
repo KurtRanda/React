@@ -1,0 +1,83 @@
+.vending-machine {
+    background: #333;
+    border: 10px solid #555;
+    border-radius: 10px;
+    width: 400px; /* Increased width for better fit */
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .screen {
+    background: #000;
+    color: #0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center; /* Ensures all slots are centered */
+  }
+  
+  .slot {
+    background: #444;
+    border: 2px solid #666;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    width: 80px; /* Fixed width for slots */
+    height: 120px; /* Fixed height for slots */
+  }
+  
+  .slot img {
+    max-width: 60px; /* Reduced size for better fit */
+    max-height: 60px;
+    margin-bottom: 5px;
+  }
+  
+  .slot span {
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .slot:hover {
+    background: #555;
+    transform: scale(1.05);
+  }
+  
+  .slot:active {
+    background: #777;
+    transform: scale(0.95);
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-around; /* Distributes links evenly */
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #222; /* Optional background for the navigation bar */
+  }
+  
+  .nav-links a {
+    color: #0f0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
