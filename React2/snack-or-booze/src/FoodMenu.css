@@ -1,0 +1,68 @@
+/* General Styling for Food Menu */
+.FoodMenu {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  /* Card Styling */
+  .FoodMenu .card {
+    border: none;
+    box-shadow: 
+      0 4px 8px rgba(0, 0, 0, 0.1), 
+      0 2px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+  }
+  
+  /* Card Title */
+  .FoodMenu .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Card Text */
+  .FoodMenu .card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* List Group Styling */
+  .FoodMenu .list-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* List Items */
+  .FoodMenu .list-group-item {
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s, transform 0.1s;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Hover Effects for List Items */
+  .FoodMenu .list-group-item:hover {
+    background-color: #f7f7f7;
+    transform: scale(1.02);
+    text-decoration: none;
+  }
+  
+  /* Links in List Items */
+  .FoodMenu a {
+    text-decoration: none;
+    color: inherit; /* Inherit text color from parent */
+  }
+  
+  .FoodMenu a:hover {
+    color: #0c65eb; /* Match hover color */
+  }
+  
